@@ -3,228 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Audience Digital Media</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Portfolio - Audience Digital Media</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-content">
-                <a href="index.html" class="logo">
-                    <span class="logo-text">AUDIENCE</span>
-                    <span class="logo-accent">DIGITAL MEDIA</span>
-                </a>
-                <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html" class="btn-nav">Get Started</a></li>
-                </ul>
+            <div class="logo">Audience Digital Media</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
 
+    <!-- Page Hero -->
     <section class="page-hero">
         <div class="container">
-            <div class="page-hero-content">
-                <h1 class="page-title">Our Work</h1>
-                <p class="page-subtitle">Churches and ministries we've helped transform</p>
-            </div>
+            <h1>Our Success Stories</h1>
+            <p>Transforming ministries through strategic digital solutions</p>
         </div>
     </section>
 
-    <section class="portfolio-section">
+    <!-- Portfolio Grid -->
+    <section class="content-section">
         <div class="container">
             <div class="portfolio-grid">
-                <div class="portfolio-card">
-                    <div class="portfolio-image">⛪</div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Church Digital Strategy</span>
-                        <h3>400-Member Church Digital Transformation</h3>
-                        <p class="portfolio-description">
-                            Complete digital strategy overhaul resulting in 300% audience growth in 6 months through content repurposing systems and strategic engagement.
-                        </p>
-                        <div class="portfolio-stats">
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">300%</div>
-                                <div class="portfolio-stat-label">Growth</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">6</div>
-                                <div class="portfolio-stat-label">Months</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">15+</div>
-                                <div class="portfolio-stat-label">Content/Week</div>
-                            </div>
-                        </div>
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-bg" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9)), url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Grace Cathedral Digital Transformation</h3>
+                        <p>Increased online congregation by 300% through strategic social media and livestream optimization</p>
                     </div>
                 </div>
 
-                <div class="portfolio-card">
-                    <div class="portfolio-image">🎬</div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Conference Production</span>
-                        <h3>Major Faith Conference - Livestream Production</h3>
-                        <p class="portfolio-description">
-                            3-day conference with flawless multi-platform streaming reaching 5,000+ online viewers with zero technical issues and post-event content strategy.
-                        </p>
-                        <div class="portfolio-stats">
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">5K+</div>
-                                <div class="portfolio-stat-label">Viewers</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">3</div>
-                                <div class="portfolio-stat-label">Days</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">0</div>
-                                <div class="portfolio-stat-label">Tech Issues</div>
-                            </div>
-                        </div>
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-bg" style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.9), rgba(245, 87, 108, 0.9)), url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Gospel Artist Launch Campaign</h3>
+                        <p>Generated 2M+ streams in 90 days for emerging Christian music artist</p>
                     </div>
                 </div>
 
-                <div class="portfolio-card">
-                    <div class="portfolio-image">🎤</div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Gospel Artist Marketing</span>
-                        <h3>Gospel Artist Platform Development</h3>
-                        <p class="portfolio-description">
-                            Strategic digital marketing campaign for gospel artist resulting in 250% audience growth and 3 major performance opportunities secured.
-                        </p>
-                        <div class="portfolio-stats">
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">250%</div>
-                                <div class="portfolio-stat-label">Growth</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">3</div>
-                                <div class="portfolio-stat-label">New Deals</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">10K+</div>
-                                <div class="portfolio-stat-label">Followers</div>
-                            </div>
-                        </div>
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-bg" style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.9), rgba(0, 242, 254, 0.9)), url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Kingdom Conference 2025</h3>
+                        <p>Professional livestream and media coverage reaching 50,000+ viewers across 40 countries</p>
                     </div>
                 </div>
 
-                <div class="portfolio-card">
-                    <div class="portfolio-image">⭐</div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Digital Presence Management</span>
-                        <h3>Global Impact Church - Ongoing Strategy</h3>
-                        <p class="portfolio-description">
-                            Comprehensive digital presence management including content strategy, social media management, and livestream coordination for major church.
-                        </p>
-                        <div class="portfolio-stats">
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">Ongoing</div>
-                                <div class="portfolio-stat-label">Partnership</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">Multi</div>
-                                <div class="portfolio-stat-label">Platforms</div>
-                            </div>
-                        </div>
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-bg" style="background: linear-gradient(135deg, rgba(250, 112, 154, 0.9), rgba(254, 225, 64, 0.9)), url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Pastor Mike's Brand Expansion</h3>
+                        <p>Built digital presence from 5K to 150K followers in 6 months with strategic content distribution</p>
                     </div>
                 </div>
 
-                <div class="portfolio-card">
-                    <div class="portfolio-image">📱</div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Social Media Strategy</span>
-                        <h3>Christ Embassy - Digital Support</h3>
-                        <p class="portfolio-description">
-                            Strategic digital communications support for one of Nigeria's largest churches, helping optimize their multi-platform presence.
-                        </p>
-                        <div class="portfolio-stats">
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">Large</div>
-                                <div class="portfolio-stat-label">Scale</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">Multi</div>
-                                <div class="portfolio-stat-label">Channels</div>
-                            </div>
-                        </div>
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-bg" style="background: linear-gradient(135deg, rgba(48, 207, 208, 0.9), rgba(51, 8, 103, 0.9)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Youth Ministry Digital Strategy</h3>
+                        <p>Created viral TikTok and Instagram content reaching 5M+ Gen Z viewers monthly</p>
                     </div>
                 </div>
 
-                <div class="portfolio-card">
-                    <div class="portfolio-image">👤</div>
-                    <div class="portfolio-info">
-                        <span class="portfolio-category">Personal Branding</span>
-                        <h3>High-Profile Pastor Branding Campaign</h3>
-                        <p class="portfolio-description">
-                            LinkedIn optimization and content strategy for high-profile pastor, establishing thought leadership and expanding influence beyond local church.
-                        </p>
-                        <div class="portfolio-stats">
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">500%</div>
-                                <div class="portfolio-stat-label">LinkedIn Growth</div>
-                            </div>
-                            <div class="portfolio-stat">
-                                <div class="portfolio-stat-number">3</div>
-                                <div class="portfolio-stat-label">Months</div>
-                            </div>
-                        </div>
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-bg" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9)), url('https://images.unsplash.com/photo-1531537571171-a707bf2683da?w=800'); background-size: cover; background-position: center;"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Worship Leader Influencer Campaign</h3>
+                        <p>Positioned worship leader as top Christian influencer with 500K+ engaged followers</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta-section">
+    <!-- CTA Section -->
+    <section class="cta-section scroll-reveal">
         <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Want Results Like These?</h2>
-                <p class="cta-description">Let's create a custom strategy for your church or ministry.</p>
-                <a href="contact.html" class="btn btn-primary btn-large">Get Started</a>
-            </div>
+            <h2>Ready to Write Your Success Story?</h2>
+            <p>Let's amplify your ministry's digital presence together</p>
+            <a href="contact.html" class="cta-button-large">Start Your Journey</a>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
-                    <h3 class="footer-logo">AUDIENCE<span>DIGITAL MEDIA</span></h3>
-                    <p class="footer-tagline">The Church Digital Strategist</p>
+                <div class="footer-section">
+                    <h4>Audience Digital Media</h4>
+                    <p>Church Digital Strategist | Influencer Marketing | Brand Growth Strategist</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="services.html">Church Digital Strategy</a></li>
-                        <li><a href="services.html">Livestream Production</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul class="footer-links">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
                         <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-section">
                     <h4>Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://linkedin.com/in/paulonimisidaniel" target="_blank">LinkedIn</a></li>
-                    </ul>
-                    <p class="footer-location">📍 Lagos, Nigeria</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/pauldanieloni" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Audience Digital Media. All rights reserved.</p>
+                <p>&copy; 2026 Audience Digital Media. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
