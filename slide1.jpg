@@ -31,6 +31,7 @@
     </nav>
 
    <!-- Hero Slider -->
+    <!-- Hero Slider -->
     <section class="hero-slider">
         <div class="slider-container">
             <!-- Slide 1 -->
@@ -99,7 +100,6 @@
             <span class="dot" data-slide="4"></span>
         </div>
     </section>
-
     <!-- Services Overview Section -->
     <section class="services-overview scroll-reveal">
         <div class="container">
